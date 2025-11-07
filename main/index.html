@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test Page</title>
+
+    <!-- Link to external css file -->
+    <link href="styles/style.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script async src="scripts/main.js"></script>
+
+    <!-- This is how to add internal CSS -->
+    <style>
+        a:link {
+            color: green;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: green;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: red;
+            background-color: transparent;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: rgb(255, 255, 0));
+            background-color: transparent;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- Comment -->
+
+    <p id="top"></p>
+    <a href="#bottom">Click here to go to the bottom</a>
+    <h1>Heading</h1>
+    <h2>Sub - Heading</h2>
+
+    <p>
+        <b>This is bold test.</b>
+        <br>
+        <i>This is italic test.</i>
+        <br>
+        <u>This is underlined test.</u>
+        <br>
+    </p>
+
+    <p>This is how to create a paragraph</p>
+
+    <br><hr>
+
+    <h2 style="text-align: center;">Lists</h2>
+    <ul style="list-style-type: square">
+        <li>First Item of unordered list</li>
+        <li>Second Item of unordered list</li>
+    </ul>
+
+    <ol type="i">
+        <li>First Item of ordered list</li>
+        <li>Second Item of ordered list</li>
+    </ol>
+
+    <dl>
+        <dt>I</dt>
+        <dd>First Item of descriptive list</dd>
+
+        <dt>II</dt>
+        <dd>Second Item of descriptive list</dd>
+
+        <dt>III</dt>
+        <dd>Third Item of descriptive list</dd>
+    </dl>
+
+    <hr>
+
+    <h2 style="text-align: center;">Links</h2>
+    <br>
+    <a href="https://google.com/" target="_blank" title="Welcome to Google!">Clicking this link will open Google in a
+        new tab
+    </a>
+
+    <br><br>
+
+    <a href="mailto:hi@gmail.com">Click here to send e-mail to hi@gmail.com</a>
+    
+    <br>
+    
+    <p>Click the image down below to go to Wikipedia</p>
+    <a href="https://www.wikipedia.com"><img src="media/wikipedia.png"  onclick="alert('Are you sure you want to go to Wikipedia?')" alt="random logo" width="300"></a>
+    <br>
+    <a href="https://google.com"><button>Clicking this button will open a link</button></a>
+    <br><br>
+    <button onclick="document.location='media/image3.png'">Click this button to open an image</button>
+    <br><br>
+    <button onclick="alert('Hello !')">Clicking this button will send a 'Hello' to your browser</button>
+    <!-- <img src="media/image1.jpg" style="float: right;" alt="Test Image" width="400" height="300"> -->
+
+    <hr>
+
+    <!-- Table -->
+    <h2 style="text-align: center;">Table</h2>
+    <br>
+    <table border="1.0" style="margin: 0 auto;">
+        <caption>Student Roll Call</caption>
+        <thead>
+            <tr>
+                <td>S.No.</td>
+                <td>Roll No.</td>
+                <td colspan="2">Name and Class</td>
+                <td>Section</td>
+                <td>Marks</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>61</td>
+                <td>Raunak</td>
+                <td>B Tech</td>
+                <td>B</td>
+                <td>61</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>62</td>
+                <td>Aman</td>
+                <td>B Tech</td>
+                <td>B</td>
+                <td>62</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Remarks</td>
+                <td>Good</td>
+            </tr>
+            <td>
+                Bad
+            </td>
+        </tbody>
+    </table>
+
+    <br><br><hr>
+
+    <!-- Forms -->
+    <h2 style="text-align: center;">Forms</h2>
+
+    <form>
+        <br><br>
+        <label>Enter Information</label>
+        <br><br>
+        <label type="name">Name: </label>
+        <input id="name" type="text" placeholder="Enter your Name" />
+        <br><br>
+        <label type="mail">Email: </label>
+        <input id="mail" type="email" placeholder="Enter your e-mail" />
+        <br><br>
+        <label type="pass">Password: </label>
+        <input id="pass" type="password" placeholder="Enter your password" />
+        <br><br>
+        <input type="submit" />
+
+        <br><br><br>
+
+        <label>Gender</label>
+        <br>
+        <label for="m">
+            <input id="m" type="radio" name="gender" />Male
+        </label>
+        <label for="f">
+            <input id="f" type="radio" name="gender" />Female
+        </label>
+        <br><br><br>
+        <label type="city">Financial Capital of India?</label><br>
+        <label type="mum"><input id="mum" type="radio" name="city">Mumbai</label><br>
+        <label type="del"><input id="del" type="radio" name="city">Delhi</label><br>
+        <label type="che"><input id="che" type="radio" name="city">Chennai</label><br>
+        <br><br>
+
+        <label>Fav Sub </label>
+        <br>
+        <label for="ab">
+            <input id="ab" type="checkbox" /> Maths
+        </label>
+        <label for="bc">
+            <input id="bc" type="checkbox" /> Science
+        </label>
+        <br>
+        <label for="cd">
+            <input id="cd" type="checkbox" /> English
+        </label>
+        <label for="de">
+            <input id="de" type="checkbox" /> Hindi
+        </label>
+
+        <br><br><br>
+
+        <!-- Date Selector -->
+        <label>Select Date</label>
+        <br>
+        <input type="datetime-local" />
+        <br><br>
+
+        <!-- Number Selector -->
+        <label>Select Age</label>
+        <br>
+        <input type="number" min="1" max="80" />
+        <br><br><br>
+
+        <!-- Drop Down Menu :- -->
+        <label>Select Place</label>
+        <br>
+        <select>
+            <option>Delhi</option>
+            <option>Haryana</option>
+            <option>Uttar Pradesh</option>
+            <option>Manipur</option>
+        </select>
+        <br>
+        <br>
+    </form>
+    <br><br>
+    <hr>
+
+    <p style="text-align: center; font-size: 30px;">Video and Audio</p>
+
+
+    <!-- Video -->
+    <video width="700px" controls
+        src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4">
+    </video>
+
+    <br><br>
+
+    <!-- Audio -->
+    <audio controls>
+        <source src="media/crickets.wav" type="audio/wav">
+    </audio>
+
+    <br><br><br><hr>
+
+    <!-- Testing Styles:- -->
+    <h2 style="text-align: center;">CSS</h2>
+
+    <br>
+
+    <p>A part of this paragraph has been coloured <span style="color: red">red</span> with the span tag.</p>
+
+    <p class="kuchbhi">The class of this paragraph is kuchbhi</p>
+    <p class="kuchbhi">The class of this paragraph is also kuchbhi</p>
+    <p class="bhikuch">The class of this paragraph is not kuchbhi</p>
+    <p id="test1">The id of this para is test1</p>
+    <p id="test2">The id of this para is test2</p>
+
+    <!-- Dummy text -->
+    <p class="testclass" id="testid">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe itaque ratione
+        ipsam, sed nobis et quam repellat maxime optio voluptas velit quibusdam, dolore vitae, beatae aspernatur ut
+        distinctio odio hic?
+    </p>
+
+    <p style="border: 2px solid purple">This paragraph block covers the whole page even though it ends early, hence it
+        is a block element 
+    </p>
+        
+    <br><br>
+
+    <!-- This is how to add inline css:- -->
+    <h1 style="color: pink; text-align: center; background-color: aqua; font-size: large; font-weight:lighter">hello</h1>
+    <h2 style="color: rgb(255, 0, 0)">rgb(255, 0, 0)</h2>
+    <h2 style="color: rgb(0, 255, 0);">rgb(0, 255, 0)</h2>
+    <h2 style="color: rgb(0, 0, 255)">rgb(0 , 0, 255)</h2>
+    <h2 style="color: rgb(197, 158, 230)">rgb(197, 158, 230)</h2>
+    <h2 style="color: rgb(255, 255, 0)">rgb(255, 255, 0)</h2>
+    <h2 style="color: rgb(0, 255, 255)">rgb(0, 255, 255)</h2>
+    <h2 style="color: rgb(255, 0, 255)">rgb(255, 0, 255)</h2>
+    <h2 style="color: rgb(255, 255, 255)">rgb(255, 255, 255)</h2>
+    <h2 style="color: #ff0000">#ff0000</h2>
+    <h2 style="color: rgba(255, 0, 0, 0.8)">rgb(255, 0, 0, 0.8)</h2>
+    <h2 style="color: rgba(255, 0, 0, 0.5)">rgb(255, 0, 0, 0.5)</h2>
+    <h2 style="color: rgba(255, 0, 0, 0.2)">rgb(255, 0, 0, 0.2)</h2>
+    
+    <br>
+
+    <!-- Block and inline elements in css:- -->
+    
+    <br><hr>
+
+    <h2 style="text-align: center;">Calculator</h2>
+    <br>
+    <table style="margin: 0 auto;" border="20">
+        <thead style="text-align: right">
+            <tr>
+                <td colspan="4">0</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><button>AC</button></td>
+                <td><button>DEL</button></td>
+                <td><button>/</button></td>
+                <td><button>x</button></td>
+            </tr>
+            <tr>
+                <td><button>7</button></td>
+                <td><button>8</button></td>
+                <td><button>9</button></td>
+                <td><button>-</button></td>
+            </tr>
+            <tr>
+                <td><button>6</button></td>
+                <td><button>5</button></td>
+                <td><button>4</button></td>
+                <td><button>+</button></td>
+            </tr>
+            <tr>
+                <td><button>1</button></td>
+                <td><button>2</button></td>
+                <td><button>3</button></td>
+                <td rowspan="2"><button>=</button></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button>0</button></td>
+                <td><button>.</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br><br>
+
+    <p id="bottom"></p>
+    <a href="#top">Click here to go to the top</a>
+
+</body>
+</html>

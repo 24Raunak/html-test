@@ -1,0 +1,97 @@
+/* This is how a CSS comment is written */
+
+h1 {
+  font-size: 32px;
+  font-family: "Roboto", sans-serif;
+  color: brown;
+  background-color: ivory;
+  padding: 0 0 0 0px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+  width: 700px;
+  text-align: center;
+  line-height: 2;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 1px black;
+}
+
+h2 {
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  color: brown;
+  background-color: ivory;
+  padding: 0 0 0 0px;
+  border: 1px solid black;
+  margin-bottom: 20px;
+  width: 700px;
+  text-align: center;
+  line-height: 2;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 1px black;
+}
+
+body {
+  color: red;
+  width: 700px;
+  margin: 0 auto;
+  background-color: #ff9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+html {
+  background-color: lightgoldenrodyellow;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+/* Types of Selectors in CSS */
+
+/* * -> Universal Selector */
+/* . -> CSS Class Selector */
+/* # -> Id Selector */
+/* h1 -> Element Selector */
+
+* {
+    text-align: center;
+    background-color:lavenderblush;
+}
+
+html {
+    border: 20px solid black;
+    background-image: url("image.jpg");
+}
+
+button {
+    color: red;
+}
+
+.kuchbhi {
+    color: magenta;
+}
+
+#test1 {
+    background-color: bisque;
+}
+
+#test2 {
+    background-color: salmon;
+}
+
+/* Testing order of specificity(* < h1 < . < #):- */
+
+p {
+    color: brown;
+}
+
+.testclass {
+    color: red;
+}
+
+#testid {
+    color: blue;
+}
