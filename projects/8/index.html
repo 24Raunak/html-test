@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <h1>Registration Form</h1>
+        <p id="heading" style="color: #69768d;">Fill out the form carefully for registration</p>
+        <br><br>
+        <form>
+            <label for="name" class="title">Student Name</label>
+            <br>
+            <input name="name" type="text">
+            <input name="name" class="rightBox" type="text">
+            <p id="name">First Name <span id="lastname">Last Name</span></p>
+            <br>
+            <label for="gender" class="title">Gender</label>
+            <label id="email" class="title" for="email">Student E-mail</label>
+            <br>
+            <select name="gender" style="color: #69768d;">
+                <option>Please Select</option>
+            </select>
+            <input id="emailbox" name="email" class="rightBox" placeholder="ex: myname@example.com">
+            <p><span id="example">example@example.com</span></p>
+            <br>
+            <label class="title" for="studentid">Student ID</label>
+            <label id="listOfClasses" class="title" for="classes">List of Classes</label>
+            <br>
+            <input for="studentid" type="text">
+            <select class="rightBox">
+                <option>Please Select</option>
+            </select>
+        </form>
+        <button>Submit</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,70 @@
+html {
+    text-align: center;
+    background-color: salmon;
+    font-family: "Montserrat", sans-serif;
+    border: 10px solid black;
+
+}
+
+#name {
+    text-align: right;
+    font-size: 30px;
+    padding-right: 270px;
+    color:darkslategrey
+}
+
+h1{
+    color: teal;
+}
+
+a:link {
+    color: darkblue;
+}
+
+#certificate {
+    float: left;
+    border: 10px solid cornflowerblue;
+    margin-left: 450px;
+}
+
+#page {
+    text-align: left;
+    margin-left: 300px;
+    margin-right: 300px;
+    border: 2px groove gray;
+    color: crimson;
+    padding-left: 10px;
+}
+
+img {
+    float: left;
+    background-color: wheat;
+    margin-left: 45px;
+}
+
+table {
+    margin-left: 250px;
+    margin-top: 300px;
+}
+
+#information {
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 10px;
+    border: 20px solid grey;
+}
+
+#feedback {
+    margin-left: 100px;
+    text-align: left;
+}
+
+#submit {
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+}
+
+video {
+    border: 5px solid green
+}

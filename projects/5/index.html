@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link href="styles.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <p id="top"><a href="#bottom">Click here to go to the bottom</a></p>
+
+    <h1><u>Welcome to my portfolio</u></h1>
+    <br><br>
+    
+    <img id="certificate" src="certificate.jpg" height="400px">
+    <br><br><br><br><br>
+    <p id="name"><b>Name</b><br>Roll No.<br>Program</p>
+    <br><br><br><br><br><br><br><br><br><br><hr><br>
+
+    <div id="page">
+        <h2>This page contains:-</h2>
+        <ol type="i">
+            <li>A personal certificate</li>
+            <li>An index list</li>
+            <li>Image Links to some major sites</li>
+            <li>A skills overview table</li>
+            <li>A feedback form</li>
+            <li>An additional video and audio</li>
+        </ol>
+    </div>
+    <br><br><br><br><br><br><br><br><br>
+
+    <div id="links">
+        <a href="https://google.com"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Google_%22G%22_logo.svg/480px-Google_%22G%22_logo.svg.png" height="300px"></a>
+        <a href="https://wikipedia.com"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/80/Wikipedia-logo-v2.svg/1024px-Wikipedia-logo-v2.svg.png" height="300px"></a>
+        <a href="https://pinterest.com"><img src="https://www.wblibrary.org/site-assets/images/pinterest-logo/@@images/image.png" height="300px"></a>
+        <a href="https://youtube.com"><img src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" height="300px" width="300"></a>
+    </div>
+    <br><br><br><br><br>
+
+    <table id="table" border="1.0" height="200px" width="1000">
+        <caption><i>Skills Overview</i></caption>
+        <thead>
+            <tr>
+                <th>Category</th>
+                <th>Skill</th>
+                <th>Proficiency</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Programming<br>Languages</td>
+                <td>Python</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+            <td>Software</td>
+            <td>Adobe Photoshop</td>
+            <td>Beginner</td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br><br><br><hr><br>
+
+    <form id="information">
+        <div id="feedback">
+        <br><br>
+        <label><b>Feedback Form</b></label>
+        <br><br>
+        <label type="nam">Name:</label>
+        <input id="nam" type="text" placeholder="Enter your Name" />
+        <br><br>
+        <label type="mail">Email: </label>
+        <input id="mail" type="email" placeholder="Enter your e-mail" />
+        <br><br>
+        <label type="pass">Password: </label>
+        <input id="pass" type="password" placeholder="Enter your password" />
+
+        <br><br><br>
+
+        <label><u>Gender:</u></label>
+        <br>
+        <label for="m">
+            <input id="m" type="radio" name="gender" />Male
+        </label>
+        <label for="f">
+            <input id="f" type="radio" name="gender" />Female
+        </label>
+        <br><br>
+        
+        <label><u>Age</u></label>
+        <br>
+        <input type="number" min="1" max="80" />
+        <br><br>
+
+        <label><u>Location</u></label>
+        <br>
+        <select>
+            <option>Delhi</option>
+            <option>Haryana</option>
+            <option>Uttar Pradesh</option>
+            <option>Manipur</option>
+        </select>
+        <br><br><hr><br>
+
+        <label><u>Review</u></label>
+        <br><br>
+        <label for="Outstanding">
+            <input id="Outstanding" type="checkbox" />Outstanding
+        </label>
+        <br>
+        <label for="Superb">
+            <input id="Superb" type="checkbox" />Superb
+        </label>
+        <br>
+        <label for="Good">
+            <input id="Good" type="checkbox" />Good
+        </label>
+        <br>
+        <label for="Satisfactory">
+            <input id="Satisfactory" type="checkbox" />Satisfactory
+        </label>
+        <br>
+        <label for="Poor">
+            <input id="Poor" type="checkbox" />Poor
+        </label>
+        <br>
+        <label for="Unsatisfactory">
+            <input id="Unsatisfactory" type="checkbox" />Unsatisfactory
+        </label>
+        <br>
+        <label for="Disappointing">
+            <input id="Disappointing" type="checkbox" />Disappointing
+        </label>
+        <br>
+        <label for="Unacceptable">
+            <input id="Unacceptable" type="checkbox" />Unacceptable
+        </label>
+        <br><br><br>
+        <label><u>Date</u></label>
+        <br>
+        <input type="datetime-local" />
+        <br><br>
+        </div>
+        <input id="submit" type="submit" />
+    </form>
+    <br><br><br>
+
+    <p>Also check out:-</p>
+    <video width="700px" controls
+    src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4">
+    </video>
+    <br>
+
+    <audio controls>
+        <source src="media/crickets.wav" type="audio/wav">
+    </audio>
+    <br><br><br><br>
+
+    <p id="thank">Thank you</p>
+
+    <br><br><br><br><br><br><br><br><br>
+    <p id="bottom"><a href="#top">Click here to go the top</a></p>
+</body>
+</html>
