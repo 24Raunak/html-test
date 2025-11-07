@@ -1,0 +1,59 @@
+body {
+    background-color: #111827;
+}
+
+div {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border: 2px solid #1f2937;
+    margin-left: 580px;
+    margin-right: 580px;
+    padding-bottom: 25px;
+    box-shadow: 2px 2px 2px 4px #1f2937;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 15px;
+    background-color: #1f2937;
+    color: white;
+    font-family: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+button {
+    background-color: #2563eb;
+    color: white;
+    margin-left: 4px;
+    margin-right: 20px;
+    padding-left: 76px;
+    padding-right: 76px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 0;
+}
+
+.blue {
+    color: #2563eb;
+}
+
+#email, #pass {
+    background-color: #4b5563;
+    border-radius: 8px;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 10px;
+    padding-right: 117px;
+    border: 0;
+}
+
+#checkbox {
+    border-radius: 100px;
+}
