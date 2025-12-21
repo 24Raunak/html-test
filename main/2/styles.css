@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    justify-content: space-around;
+}
+
+form {
+    border: 1px solid black;
+}
+
+button {
+    display: flex;
+    justify-content: space-around;
+    background-color: green;
+    color: white;
+    border: 0;
+}
