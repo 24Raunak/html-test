@@ -1,0 +1,33 @@
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0
+}
+
+body {
+    font-family:Segoe UI,Arial,sans-serif;
+    background:#fafafa;
+    padding:2rem
+}
+
+.container {
+    display:flex;
+    gap:1rem
+}
+
+.card {
+    flex:1;
+    background:#333;
+    color:#fff;
+    padding:2rem;
+    border-radius:8px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    transition:flex .5s
+}
+
+.card.active {
+    flex:5
+}

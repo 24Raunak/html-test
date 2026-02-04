@@ -1,0 +1,57 @@
+title attribute - provides information about an element
+displayed as a tooltip when the user hovers over the element
+
+<pre> element - defines preformatted text
+the text inside this element preserves both spaces and line breaks
+
+<b> tag - used to define element without any extra importance
+<strong> tag - used to define text with strong importance
+
+<i> tag - used to define element without any extra importance
+<em> tag - used to define text with strong importance
+
+<small> tag - renders text one font size smaller than the surrounding text
+<mark> tag - highlights text
+<del> tag - strikes a line through the center of the text
+<ins> tag - underlines a text
+<sub> tag - defines a subscript text
+<sup> tag - defines a superscript text
+
+<blockquote> element - used to indicate that the enclosed text is an extended quotation from another source
+browsers usually indent <blockquote> elements
+
+<q> tag - for short quotation
+browsers insert quotation marks around the quotation
+
+<abbr> tag - defines an abbreviation or acronym
+dotted underlines the text
+
+<address> tag - used to define the contact information for the author or owner of a document
+italicizes the text
+
+<cite> tag - used to define the title of a work
+renders the text in italic
+
+<bdo> tag - Bi-directional override
+used to change the direction the text is displayed
+
+rgba - a stands for alpha
+specifies the opacity(between 0 to 1)
+
+hsl and hsla - hue, saturation and lightness
+example:- hsl(9%, 100%, 64%)
+        hsla(9%, 100%, 64%, 0.5)
+
+target attribute - within the anchor tag
+    values - i) _self - default, opens the document in the same tab
+            ii) _blank - opens the document in a new tab
+            iii) _parent - opens the document in next level up of a frame if they were nested to inside one another
+            iv) _top - opens the document outside of all the frames it is nested in
+
+To use a button as a link:-
+Example:- <button onclick="document.location='default.asp'">HTML Tutorial</button>
+
+To change the color of html links:-
+a:link {
+    
+}

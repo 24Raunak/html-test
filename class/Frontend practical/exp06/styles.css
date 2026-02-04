@@ -1,0 +1,66 @@
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0
+}
+
+body {
+    font-family:Segoe UI,Arial,sans-serif;
+    background:#f9f9f9;
+    color:#333
+}
+
+.navbar {
+    padding:1rem 2rem;
+    background:#fff;
+    box-shadow:0 1px 5px rgba(0,0,0,.06)
+}
+
+.hero {
+    background:url('https://source.unsplash.com/random/1200x400?education')center/cover;
+    height:40vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:#fff
+}
+
+.courses {
+    padding:2rem;
+    text-align:center
+}
+
+.course-grid {
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:1rem;
+    max-width:1100px;
+    margin:1rem auto
+}
+
+.course-card {
+    background:#fff;
+    padding:1rem;
+    border-radius:8px;
+    box-shadow:0 3px 10px rgba(0,0,0,.06)
+}
+
+.progress-bar {
+    background:#eee;
+    height:10px;
+    border-radius:5px;
+    overflow:hidden
+}
+
+.progress {
+    background:#0077cc;
+    height:100%
+}
+
+footer {
+    text-align:center;
+    padding:1rem;
+    background:#222;
+    color:#fff;
+    margin-top:1.5rem
+}

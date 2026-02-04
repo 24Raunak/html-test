@@ -1,0 +1,51 @@
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0
+}
+
+body {
+    font-family:Segoe UI,Arial,sans-serif;
+    background:#f0f8ff;
+    color:#333;
+    padding:1rem
+}
+
+.container {
+    max-width:800px;
+    margin:auto
+}
+
+header {
+    text-align:center;
+    margin-bottom:1rem
+}
+
+.current-weather {
+    background:#fff;
+    padding:1rem;
+    border-radius:8px;
+    box-shadow:0 2px 8px rgba(0,0,0,.08);
+    text-align:center
+}
+
+.forecast-grid {
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+    gap:1rem;
+    margin-top:1rem
+}
+
+.forecast-card {
+    background:#fff;
+    padding:1rem;
+    border-radius:8px;
+    box-shadow:0 2px 8px rgba(0,0,0,.06);
+    text-align:center
+}
+
+footer {
+    text-align:center;
+    margin-top:2rem;
+    color:#555
+}

@@ -1,0 +1,10 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px, 200px;
+}
+
+.grid-container div {
+    background-color: palevioletred;
+    border: 2px solid red;
+}

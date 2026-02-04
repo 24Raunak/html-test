@@ -1,0 +1,14 @@
+/* object-fit demo styles */
+body{font-family:Arial,Helvetica,sans-serif;padding:18px;color:#222}
+h1{font-size:20px;margin:0 0 12px}
+h2{font-size:16px;margin:18px 0 8px}
+.row{display:flex;gap:18px;flex-wrap:wrap;align-items:flex-start}
+figure{margin:0}
+figcaption{font-size:13px;margin:6px 0}
+.box{width:320px;height:200px;overflow:hidden;border:1px solid #ddd;border-radius:4px;background:#fafafa}
+img.demo{width:100%;height:100%;display:block}
+.cover{object-fit:cover;object-position:center}
+.contain{object-fit:contain;object-position:center;background:#f3f3f3}
+.pos-right{object-position:center right}
+.pos-custom{object-position:25% 75%}
+.note{font-size:13px;color:#666;margin-top:14px}

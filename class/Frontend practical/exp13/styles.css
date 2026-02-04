@@ -1,0 +1,32 @@
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0
+}
+
+html,body,#container {
+    height:100%
+}
+
+.split {
+    display:flex;
+    height:100vh
+}
+
+.left,.right {
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    color:#fff;
+    padding:2rem
+}
+
+.left {
+    background:url('https://source.unsplash.com/random/800x800?shop')center/cover
+}
+
+.right {
+    background:url('https://source.unsplash.com/random/800x800?sell')center/cover
+}

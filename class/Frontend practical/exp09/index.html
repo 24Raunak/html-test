@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        <title>Experiment 9 - Job Portal</title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+        <header>
+            <h1>Jobify</h1>
+            <input id="searchInput" placeholder="Search by title or location"/>
+        </header>
+        
+        <main>
+            <div id="jobList" class="job-list"></div>
+        </main>
+        
+        <script>
+        // Minimal inline dataset to render job cards (kept in HTML file for this deliverable)
+        
+        const jobs = [{title:"Frontend Developer",company:"TechNova",location:"Delhi",type:"Full-Time"},{title:"Backend Developer",company:"CodeAxis",location:"Remote",type:"Part-Time"}];
+        const jobList = document.getElementById('jobList');
+        function displayJobs(list){jobList.innerHTML='';list.forEach(j=>{const d=document.createElement('div');d.className='job-card';d.innerHTML=`<h3>${j.title}</h3><p><strong>Company:</strong> ${j.company}</p><p><strong>Location:</strong> ${j.location}</p><span>${j.type}</span>`;jobList.appendChild(d)})}
+        displayJobs(jobs);
+        document.getElementById('searchInput').addEventListener('input',e=>{const q=e.target.value.toLowerCase();displayJobs(jobs.filter(j=>j.title.toLowerCase().includes(q)||j.location.toLowerCase().includes(q)))})
+        
+        </script>
+    </body>
+    </html>

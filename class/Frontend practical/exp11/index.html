@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+    <head><meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1"/>
+        <title>Experiment 11 - Expanding Cards</title>
+        <link rel="stylesheet" href="styles.css"/>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="card">Card 1</div>
+            <div class="card">Card 2</div>
+            <div class="card">Card 3</div>
+        </div>
+
+        <script>
+        const cards = document.querySelectorAll('.card');
+        cards.forEach(c=>c.addEventListener('click',()=>{cards.forEach(x=>x.classList.remove('active'));c.classList.add('active')}));
+        </script>
+    </body>
+</html>

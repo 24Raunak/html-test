@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>object-fit / object-position demo</title>
+  <link rel="stylesheet" href="object-fit-demo.css">
+  </head>
+<body>
+  <h1>object-fit vs object-position</h1>
+
+  <section class="row">
+    <figure>
+      <figcaption>cover (cropped)</figcaption>
+      <div class="box">
+        <img src="https://picsum.photos/id/1018/1200/800" alt="Landscape" class="demo cover">
+      </div>
+    </figure>
+
+    <figure>
+      <figcaption>contain (letterbox)</figcaption>
+      <div class="box">
+        <img src="https://picsum.photos/id/1018/1200/800" alt="Landscape" class="demo contain">
+      </div>
+    </figure>
+  </section>
+
+  <h2>object-position examples</h2>
+  <section class="row">
+    <figure>
+      <figcaption>center right</figcaption>
+      <div class="box">
+        <img src="https://picsum.photos/id/1025/1200/800" alt="Animal" class="demo cover pos-right">
+      </div>
+    </figure>
+
+    <figure>
+      <figcaption>25% 75%</figcaption>
+      <div class="box">
+        <img src="https://picsum.photos/id/1025/1200/800" alt="Animal" class="demo cover pos-custom">
+      </div>
+    </figure>
+  </section>
+
+  <p class="note">Open this file in a browser to preview. Images come from <a href="https://picsum.photos">picsum.photos</a>.</p>
+</body>
+</html>
