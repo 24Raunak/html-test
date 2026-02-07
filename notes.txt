@@ -1,3 +1,84 @@
+'<', '>' are called as angular bracket
+
+<a> is called as anchor tag
+<div> is called as divider
+<span> is called as text span
+
+id - denotes the unique id of an element in a page
+class - denotes the css class of an element
+data-x > a general prefix for attributes that store raw information for programming purposes
+
+<ol type="A"> --> defines an ordered list where the list items are marked with uppercase alphabetical letters
+other type attributes:-
+<ol type="1"> --> Natural numbers
+<ol type="a"> --> Lowercase alphabetical letters
+<ol type="i"> --> Lowercase roman numerals
+<ol type="I"> --> Uppercase roman numerals
+
+<ul style="list-style-type: disc"> --
+types --> disc, circle, square, none
+
+
+The 'onload' attribute in html is an event handler that executes a script or a function when a specific object or image has finished loading.
+Example:-
+<img src="/static/img/code.jpg" onload="alert('image loaded')">
+will display the 'image loaded' when the webpage has loaded.
+
+
+Image types that can be used in html :-
+1) Losless formats :- example- png
+2) Lossy formats:- example - jpg
+3) Animated formats:- example - jpg
+-
+using / in html can be used to take stuff from the root folder or the original loaded folder
+example :- <img src = "/folder1/image.jpg" /> can be used to take out an image from the root folder
+while directly using <img src = "image.jpg" /> is used to take stuff directly from the same folder as the html file
+
+an absolute url > points to another website
+a relative url > points to a file within a web site
+
+
+difference between an id and class in html :-
+an id is an attribute used to be a unique identifier within an html document. no two elements on a page will have the same id value.
+a class attribute can be applied to multiple elements on a single page
+
+the selector "p.example" in a .css file will select all the paragraphs which have been assigned the class "example"
+or
+the selector "p#hello" in a .css file will select the paragraph element which has been assigned the id "hello"
+
+html colors can also be specified using rgb. example:-
+<h1 style="color: rgb(255, 99, 71);">
+or using hex:-
+<h1 style="background-color:#ff0000";>
+
+CSS is used because it saves a lot of work by controlling the layout of multiple web pages at once
+
+CSS can be added in html in 3 ways:-
+1) inline - by using style attribute inside html elements
+2) internal - by using <style> element in the head section 
+3) external - by using <link> to link an external css file
+
+In order to use a button in html:-
+<button onclick="document.location='/image.jpg'">Click here to open an image</button>
+
+We can use the "title" attribute inside <a> href to display information when the mouse hovers over the link.
+
+Nested Lists
+
+lorem100 - gives 100 random words
+
+
+
+
+
+
+
+
+
+
+
+
+
 title attribute - provides information about an element
 displayed as a tooltip when the user hovers over the element
 

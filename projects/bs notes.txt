@@ -1,0 +1,1 @@
+Mobile First: Design for the smallest screen size first, then use min-width queries for larger screens. This approach often leads to cleaner, more maintainable CSS.

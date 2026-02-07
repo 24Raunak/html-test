@@ -1,0 +1,194 @@
+The language of web which can manipulate, validate and calculate data is JavaScript
+
+splice(startIndex, delCount, newElement)
+
+Functions are resuable piece of code
+Functions in javascript:-
+
+function Hello() {
+    console.log("Hello");
+}
+
+Hello();
+
+________________________
+
+function Hello(name) {
+    console.log('Hello' + name);
+}
+
+Hello('btech');
+
+______________________
+
+
+function Hello(name) {
+    return 'Hello' + name;
+}
+let result = Hello('geeta');
+
+console.log(result);
+
+____________________________
+
+Default parameter
+
+function Hello(name = 'btech') {
+    console.log('Hello' + name);
+}
+
+Hello();
+Hello('Geeta');
+
+____________________
+
+// There are 3 ways to create a function in js:-
+
+// 1) Function Declaration
+function Hello() {
+  console.log('Hi');
+}
+Hello()
+
+// 2) Function Expression
+let Hello = function() {
+  console.log('Hi');
+}
+Hello();
+
+____________________
+
+
+Function Declaration
+When JavaScript is executed, function declaration (in this case, Hello() ) will automatically come at the top
+This behavior is called as JavaScript hoisting.
+
+__________________________
+
+Third way of creating a function:-
+
+3) Arrow Function
+
+const Hello = () => {
+	console.log('Hi');
+}
+Hello();
+
+_____________________________
+
+Question) Pass 2 number as parameter and print resultant using all three functions
+
+function Declaration(num1, num2) {
+    let total = num1 + num2;
+    console.log(total);
+}
+
+let Expression = function() {
+    let total = num1 + num2;
+    console.log(total);
+}
+
+const Arrow = () => {
+    let total = num1 + num2;
+    console.log(total);
+}
+
+let num1 = 20;
+let num2 = 30;
+
+Declaration(num1, num2);
+Expression(num1, num2);
+Arrow(num1, num2);
+
+___________________________________________
+
+
+Objects
+A collection of key-value pairs
+
+let a = {
+	name: 'abcd',
+	city: 'Panipat'
+}
+
+let a = {
+	name: 'ABC',
+	city: 'Delhi',
+	age: 25,
+	hobbies: [1, 2, 3, 4],
+	Grade: 7.29,
+	isMarried: true
+}
+
+
+Two access property of an object:-
+
+console.log(a.name)
+console.log(a['name'])
+
+
+To insert a new property:-
+a.gender = 'Male'
+
+_____________________________
+
+
+DOM - represents our webpage
+1) Document Object Model
+2) A tree like structure that represent your webpage.
+3) Using DOM, you can modify, access, and delete HTML elements.
+4) Get, Update, Delete, Add
+
+document.getElementById(' ____ ');
+document.querySelector(' _____ ');
+document.querySelectorAll(' ____' );
+
+_________________________________
+
+
+Array Method - Map, filter, reduce
+
+Map :-
+
+let a = [1, 2, 3, 4, 5, 6]
+let b = a.map((each) => each * 2);
+console.log(b);
+
+Output :-
+[2, 4, 6, 8, 10, 12]
+
+
+where 'each' represents each element of array
+and 'each * 2' is the condition
+
+Filter :-
+
+let a = [1, 2, 3, 4, 5, 6]
+let b = a.filter((each) => each > 3);
+console.log(b);
+
+Output :-
+[4, 5, 6]
+
+Reduce :-
+
+let a = [1, 2, 3, 4, 5];
+let b = a.reduce((ac, cv) => ac + cv);
+console.log(b);
+
+Output :-
+
+15
+
+where, cv = current value, ac = accumulator
+
+________________________
+
+concat() to merge arrays
+sort() to sort arrays
+
+
+
+
+___________________
+.repeat() function

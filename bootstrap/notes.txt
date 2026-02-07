@@ -20,4 +20,3 @@ Media query:-
 2) Mobile First:-
     @media screen and (min-width:600px) {
     }
-
