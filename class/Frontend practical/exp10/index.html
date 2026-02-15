@@ -1,23 +1,26 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width,initial-scale=1"/>
-        <title>Experiment 10 - Healthcare Booking</title>
-        <link rel="stylesheet" href="styles.css"/>
-    </head>
-    <body>
-        <div class="card">
-            <h1>Book Appointment</h1>
-            <form id="apptForm">
-                <label>Name<input name="name" required/></label>
-                <label>Email<input name="email" type="email" required/></label>
-                <label>Date<input name="date" type="date" required/></label>
-                <button type="submit">Book</button>
-            </form>
-        </div>
-        <script>
-        document.getElementById('apptForm').addEventListener('submit',e=>{e.preventDefault();alert('Form submitted (demo)')})
-        </script>
-    </body>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Experiment 10 - Healthcare Booking</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="card">
+        <h1>Book Appointment</h1>
+        <form id="apptForm">
+            <label>Name<input name="name" required /></label>
+            <label>Email<input name="email" type="email" required /></label>
+            <label>Date<input name="date" type="date" required /></label>
+            <button type="submit">Book</button>
+        </form>
+    </div>
+    <script>
+        document.getElementById('apptForm').addEventListener('submit', e => { e.preventDefault(); alert('Form submitted (demo)') })
+    </script>
+</body>
+
 </html>

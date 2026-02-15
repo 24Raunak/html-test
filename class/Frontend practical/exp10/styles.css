@@ -1,46 +1,46 @@
 * {
-    box-sizing:border-box;
-    margin:0;
-    padding:0
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
 }
 
 body {
-    font-family:Segoe UI,Arial,sans-serif;
-    background:#f0f8ff;
-    padding:2rem;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    height:100vh
+    font-family: Segoe UI, Arial, sans-serif;
+    background: #f0f8ff;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh
 }
 
 .card {
-    background:#fff;
-    padding:1.5rem;
-    border-radius:8px;
-    box-shadow:0 4px 12px rgba(0,0,0,.08);
-    width:100%;
-    max-width:420px
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, .08);
+    width: 100%;
+    max-width: 420px
 }
 
 form label {
-    display:block;
-    margin-bottom:.75rem
+    display: block;
+    margin-bottom: .75rem
 }
 
 input {
-    width:100%;
-    padding:.6rem;
-    border:1px solid #ccc;
-    border-radius:6px
+    width: 100%;
+    padding: .6rem;
+    border: 1px solid #ccc;
+    border-radius: 6px
 }
 
 button {
-    margin-top:.5rem;
-    padding:.6rem 1rem;
-    background:#0077cc;
-    color:#fff;
-    border:none;
-    border-radius:6px;
-    cursor:pointer
+    margin-top: .5rem;
+    padding: .6rem 1rem;
+    background: #0077cc;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer
 }

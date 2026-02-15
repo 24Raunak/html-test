@@ -1,72 +1,72 @@
 * {
-    box-sizing:border-box;
-    margin:0;
-    padding:0
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
 }
 
 body {
-    font-family:Segoe UI,Arial,sans-serif;
-    background:#f5f5f5;
-    color:#333
+    font-family: Segoe UI, Arial, sans-serif;
+    background: #f5f5f5;
+    color: #333
 }
 
 .navbar {
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    padding:1rem 2rem;
-    background:#fff;
-    box-shadow:0 2px 6px rgba(0,0,0,.06)
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .06)
 }
 
 .logo {
-    font-weight:700;
-    color:#0077cc
+    font-weight: 700;
+    color: #0077cc
 }
 
 .nav-links {
-    list-style:none;
-    display:flex;
-    gap:1rem
+    list-style: none;
+    display: flex;
+    gap: 1rem
 }
 
 .hero {
-    background:url('https://source.unsplash.com/random/1200x400?shopping')center/cover;
-    height:40vh;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    color:#fff
+    background: url('https://source.unsplash.com/random/1200x400?shopping')center/cover;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff
 }
 
 .hero-text {
-    background:rgba(0,0,0,.45);
-    padding:1.5rem;
-    border-radius:8px;
-    text-align:center
+    background: rgba(0, 0, 0, .45);
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center
 }
 
 .product-grid {
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-    gap:1.25rem;
-    max-width:1100px;
-    margin:1.5rem auto;
-    padding:0 1rem
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.25rem;
+    max-width: 1100px;
+    margin: 1.5rem auto;
+    padding: 0 1rem
 }
 
 .product-card {
-    background:#fff;
-    padding:1rem;
-    border-radius:8px;
-    box-shadow:0 2px 8px rgba(0,0,0,.06);
-    text-align:center
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .06);
+    text-align: center
 }
 
 footer {
-    text-align:center;
-    padding:1rem;
-    background:#222;
-    color:#fff;
-    margin-top:2rem
+    text-align: center;
+    padding: 1rem;
+    background: #222;
+    color: #fff;
+    margin-top: 2rem
 }

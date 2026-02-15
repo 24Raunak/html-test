@@ -5,10 +5,10 @@ body {
 }
 
 h1 {
-    height:fit-content;
+    height: fit-content;
     /* In this, 50% means 50% of body pixels, which is 350 pixels.  */
 
-    width:fit-content;
+    width: fit-content;
     /* vw means 30 */
 
     font-size: 2rem;
@@ -22,10 +22,10 @@ h1 {
     padding-left: 60px; */
 
     color: white;
-    
+
 }
 
-span{
+span {
     padding: 100px;
     margin-left: 60px;
 }
