@@ -1,0 +1,27 @@
+Git - version control
+GitHub - server for Git
+
+const a = 7 - initial state
+let b = 8 - change 1 (b inserted)
+function() { - change 2 (function insereted)
+
+}
+
+change 3 (function deleted)
+
+version control - track of how your file is changing over a period of time. who, when what
+
+Git commands-
+initialize git - git init - initialize empty git repository
+
+1) local changes -> staged changes
+    git add filepath - for single files
+    git add . - for multiple files
+
+2) commit
+    git commit -m 'message'
+
+U - means untracked file
+
+git config --global user.name 'username'
+git config --global user.email 'email'
